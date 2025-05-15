@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<style>
+      
+    .collapse {
+        border: none;
+        outline: none;
+        font-size: 15px;
+    }
+   
+    .active,
+    .collapse:hover {
+        background-color: #ad95ae;
+    }
+   
+    .text {
+        display: none;
+        font-size: 15px;
+    }
+</style>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title> Moritz May </title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Moritz May's personal website.">
+    <meta name="author" content="Moritz May">
+    <meta name="keywords" content="Moritz May, economics, Bonn, Germany, research, teaching">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 id="moritz-may"> <center> Moritz May </center> </h1>
+	<img src="moritz-may.jpg">
+      </header>
+      <section>
+
+        <p> I am a Ph.D. candidate in economics at the University of Bonn. </p>
+        
+        <p> My research focuses on imperfect information in heterogeneous agent macroeconomics, integrating issues and questions from labor and financial economics. </p>
+        
+        <p> My CV can be found <a href="cv-moritz-may.pdf">here</a>. You can contact me at moritz-may@uni-bonn.de.</em></p>
+
+        <p> <hr> </p>
+        <p></p>
+
+
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+
+        <h2 id="progress"> Works in Progress</h2>
+
+        <p>"The Macroeconomics of Public Capital Markets", with Martin Kornejew.</p>
+
+        <button type="button" class="collapse">
+          Abstract
+        </button>
+        
+        <div class="text">
+          Public capital markets intermediate savings without the frictions of traditional banking. This has long inspired European policy initiatives to promote capital markets. Yet, the US financial systems appears to increasingly de-emphasize the role of public corporate financing. Guided by empirical evidence, we design a general equilibrium model with nontrivial financial architecture to investigate the macroeconomic role and determinants of public capital markets. 
+        </div>
+
+        <p>"Perceived Self-Insurance," with Luca Michels.</p>
+
+
+	<p></p>
+	<p></p>
+
+      </section>
+      <footer>
+        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+
+
+  <script>
+    var btns = document.getElementsByClassName("collapse");
+
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
+
+
+
+</html>
